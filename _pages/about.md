@@ -8,13 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-<div class="row">
-        <div class="col-md-4 col-sm-12 pr-5 lead" ,="" style="margin-left: 20px; margin-right: -30px">
-            <img src="static/images/chinese_cover.jpg" }}"="" class="rounded" style="width:90%">
-          </div>
-  
-      <div class="col-md-8 col-sm-12 pr-5 lead" ,="" style="margin-left:-10px;">
-        <p style="font-size:17px">
+
+ <p>
+	<img align="left" src="../images/trust.png" alt="Photo" style="width: 130px; border-radius: 10px; padding: 10px 10px 10px 10px">
+ 
+	<p style="font-size:17px">
             近年来，图神经网络（GNN）取得了快速、令人难以置信的进展。图神经网络又称为图深度学习、图表征学习（图表示学习）或几何深度学习，是机器学习特别是深度学习领域增长最快的研究课题。图论和深度学习交叉领域的这波研究浪潮也影响了其他科学领域，包括推荐系统、计算机视觉、自然语言处理、归纳逻辑编程、程序合成、软件挖掘、自动规划、网络安全和智能交通等。
         </p>
         <p style="font-size:17px">
@@ -23,8 +21,10 @@ redirect_from:
         <p style="font-size:17px">
             本书涵盖图神经网络的广泛主题，从基础到前沿，从方法到应用，涉及从方法论到应用场景方方面面的内容。我们致力于介绍图神经网络的基本概念和算法、研究前沿以及广泛和新兴的应用。
         </p>
-      </div>
-    </div>
+		
+ </p>
+
+
 
 
 
