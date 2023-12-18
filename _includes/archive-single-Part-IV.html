@@ -1,0 +1,182 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+
+
+
+
+
+
+<table style="border-collapse: collapse; width: 100%;"><tbody>
+	<tr bgcolor="#DEDEDC">
+		<th colspan="2" align="left">
+			<p> <strong><span style="font-family:Times New Roman; font-size: 18pt;">第十八章：联邦个性化推荐</span></strong></p>
+		</th>
+	</tr>
+
+	<tr style="height: 250px;">
+	
+		<td style="vertical-align: middle; width: 40%; height: 250px;"> <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/ch18.png" alt=""></td>
+		
+		<td style="vertical-align: middle; width: 60%; height: 250px;">
+	
+			<p style="font-family:Times New Roman;font-size: 13pt;">
+简介：个性化推荐已经被广泛应用于人们生活中的各个方面，例如新闻推
+荐、视频推荐、商品推荐等，它在帮助用户在信息筛选、精准营销等方
+面起到至关重要的作用。为了实现精准的推荐效果，推荐系统需要收集
+海量用户的数据信息，一般而言，收集的数据越多，对用户的了解就越
+全面和深入，推荐效果也会越精准。
+</p>
+
+			<p style="font-family:Times New Roman;font-size: 13pt;">PDF下载:&nbsp;<a href="https://github.com/innovation-cat/Awesome-Federated-Machine-Learning" target="_blank">Github Project</a></p>		
+		</td>	
+	</tr>
+</tbody></table>
+
+<br>
+
+
+<table style="border-collapse: collapse; width: 100%;"><tbody>
+	<tr bgcolor="#DEDEDC">
+		<th colspan="2" align="left">
+			<p> <strong><span style="font-family:Times New Roman; font-size: 18pt;">第十九章：联邦计算机视觉</span></strong></p>
+		</th>
+	</tr>
+	<tr style="height: 250px;">
+	
+		<td style="vertical-align: middle; width: 40%; height: 250px;"> <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/ch19.png" alt=""></td>
+		
+		<td style="vertical-align: middle; width: 60%; height: 250px;">		
+			<p style="font-family:Times New Roman;font-size: 13pt;">
+简介：计算机视觉是当前人工智能应用最为广泛的一个领域，依靠大数据
+和硬件算力的发展，计算机视觉模型的性能得到了快速的提高，但对数
+据的高度依赖，也导致隐私泄露问题的频发，如在人脸识别、智慧城市
+建设等相继爆出了数据在使用过程中的安全问题。在此背景下，研究人
+员开始将计算机视觉模型应用到联邦学习场景中，用以保护用户数据的
+隐私。本章我们以安防领域常见的目标检测为案例，讲解计算机视觉模
+型在联邦学习上的应用。
+</p>
+			<p style="font-family:Times New Roman;font-size: 13pt;">PDF下载:&nbsp;<a href="https://github.com/innovation-cat/Awesome-Federated-Machine-Learning" target="_blank">Github Project</a></p>		
+		</td>	
+	</tr>
+</tbody></table>
+
+
+
+<br>
+
+
+<table style="border-collapse: collapse; width: 100%;"><tbody>
+	<tr bgcolor="#DEDEDC">
+		<th colspan="2" align="left">
+			<p> <strong><span style="font-family:Times New Roman; font-size: 18pt;">第二十章：联邦语音识别</span></strong></p>
+		</th>
+	</tr>
+	<tr style="height: 250px;">
+	
+		<td style="vertical-align: middle; width: 40%; height: 250px;"> <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/ch20.png" alt=""></td>
+		
+		<td style="vertical-align: middle; width: 60%; height: 250px;">		
+			<p style="font-family:Times New Roman;font-size: 13pt;">
+简介：自动语音识别（Automatic Speech Recognition，ASR）是一种将人的
+语音转换为文本的技术，广泛应用于即时通讯、搜索引擎、车载系统和
+家庭自动化等产品中。然而，商业ASR系统通常是一种定制的、通用型
+（或俗称“一刀切”）的产品，对于特定的客户场景，由于训练数据和测
+试数据之间的差异，这种ASR系统很难避免在现场测试中出现严重的性
+能下降风险；此外，随着数据隐私保护条例等数据法案的生效，使用集
+中式训练模式得到的ASR系统，供应商很可能因为客户数据访问被禁止
+而变得难以实现。
+</p>
+			<p style="font-family:Times New Roman;font-size: 13pt;">PDF下载:&nbsp;<a href="https://github.com/innovation-cat/Awesome-Federated-Machine-Learning" target="_blank">Github Project</a></p>		
+		</td>	
+	</tr>
+</tbody></table>
+
+
+
+<br>
+
+
+<table style="border-collapse: collapse; width: 100%;"><tbody>
+	<tr bgcolor="#DEDEDC">
+		<th colspan="2" align="left">
+			<p> <strong><span style="font-family:Times New Roman; font-size: 18pt;">第二十一章：联邦医疗案例</span></strong></p>
+		</th>
+	</tr>
+	<tr style="height: 250px;">
+	
+		<td style="vertical-align: middle; width: 40%; height: 250px;"> <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/ch21.png" alt=""></td>
+		
+		<td style="vertical-align: middle; width: 60%; height: 250px;">		
+			<p style="font-family:Times New Roman;font-size: 13pt;">
+简介：本章我们以医疗场景为例，概述总结当前联邦学习在医疗领域的各
+个方面应用，包括药物研发、临床辅助诊断与治疗、可穿戴健康设备和
+健康管理、基因分析、电子健康记录、激励机制等。
+</p>
+			<p style="font-family:Times New Roman;font-size: 13pt;">PDF下载:&nbsp;<a href="https://github.com/innovation-cat/Awesome-Federated-Machine-Learning" target="_blank">Github Project</a></p>		
+		</td>	
+	</tr>
+</tbody></table>
+
+
+<br>
+
+
+<table style="border-collapse: collapse; width: 100%;"><tbody>
+	<tr bgcolor="#DEDEDC">
+		<th colspan="2" align="left">
+			<p> <strong><span style="font-family:Times New Roman; font-size: 18pt;">第二十二章：联邦学习在金融领域的应用</span></strong></p>
+		</th>
+	</tr>
+	<tr style="height: 250px;">
+	
+		<td style="vertical-align: middle; width: 40%; height: 250px;"> <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/ch22.png" alt=""></td>
+		
+		<td style="vertical-align: middle; width: 60%; height: 250px;">		
+			<p style="font-family:Times New Roman;font-size: 13pt;">
+简介：金融、保险等行业普遍受到更为严格的监管和隐私保护法律法规的
+约束，跨机构或者跨部门之间很难直接共享数据。本章我们将讲解在金
+融保险领域，如何利用联邦学习来打破数据壁垒，提升模型质量，为金
+融保险行业提供更优质的服务。
+</p>
+			<p style="font-family:Times New Roman;font-size: 13pt;">PDF下载:&nbsp;<a href="https://github.com/innovation-cat/Awesome-Federated-Machine-Learning" target="_blank">Github Project</a></p>		
+		</td>	
+	</tr>
+</tbody></table>
+
+
+<br>
+
+
+<table style="border-collapse: collapse; width: 100%;"><tbody>
+	<tr bgcolor="#DEDEDC">
+		<th colspan="2" align="left">
+			<p> <strong><span style="font-family:Times New Roman; font-size: 18pt;">第二十三章：联邦学习与其它前沿技术</span></strong></p>
+		</th>
+	</tr>
+	<tr style="height: 250px;">
+	
+		<td style="vertical-align: middle; width: 40%; height: 250px;"> <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/ch23.png" alt=""></td>
+		
+		<td style="vertical-align: middle; width: 60%; height: 250px;">		
+			<p style="font-family:Times New Roman;font-size: 13pt;">
+简介：本章我们将介绍几个与联邦学习紧密相关的前沿技术，这些技术方
+案能更好的辅组构建可信赖的联邦学习。对每一种技术方案，我们将首
+先简要概述它们各自的原理和特点，然后详细分析它们与联邦学习之间
+的关系，并探讨如何与传统的联邦学习相互结合，构建可信的联邦学习。
+</p>
+			<p style="font-family:Times New Roman;font-size: 13pt;">PDF下载:&nbsp;<a href="https://github.com/innovation-cat/Awesome-Federated-Machine-Learning" target="_blank">Github Project</a></p>		
+		</td>	
+	</tr>
+</tbody></table>
