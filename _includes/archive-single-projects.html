@@ -1,0 +1,149 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+<br>
+
+<table style="border-collapse: collapse; width: 100%;"><tbody>
+	<tr bgcolor="#DEDEDC">
+		<th colspan="2" align="left">
+			<p> <strong><span style="font-family:Times New Roman; font-size: 18pt;">Face Recognition</span></strong></p>
+		</th>
+	</tr>
+	
+
+	
+	
+	<tr style="height: 250px;">
+	
+		<td style="vertical-align: middle; width: 40%; height: 250px;"> <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/project3.png" alt=""></td>
+		
+		<td style="vertical-align: middle; width: 60%; height: 250px;">
+			
+			
+			
+			<p style="font-family:Times New Roman;font-size: 13pt;">
+This project contains such capabilities as face detection, attribute analysis, face comparison, and liveness detection. It is flexibly used for financial, PAN security, and retail industry scenarios. It meets business requirements, such as identity verification, human face attendance, and gate access.
+</p>
+
+
+			<p style="font-family:Times New Roman;font-size: 13pt;">
+<strong>Face detection: </strong> It can detect the human face rapidly and return to the human face box position.<br>
+</p>
+
+<p style="font-family:Times New Roman;font-size: 13pt;">
+<strong>Attribute analysis: </strong>it can identify several kinds of attribute information accurately, including but not limited to age, gender, mask.<br>
+</p>
+
+			<p style="font-family:Times New Roman;font-size: 13pt;">
+<strong>Liveness Detection: </strong>it offers six on-line and off-line liveness detection abilities. Thus, it can judge whether the operation is done by a real human and prevent cheating behaviours, such as using a picture, video, or mock-up.<br>
+</p>
+			
+		</td>
+		
+		
+	</tr>
+</tbody></table>
+
+<br>
+
+<table style="border-collapse: collapse; width: 100%;"><tbody>
+	<tr bgcolor="#DEDEDC">
+		<th colspan="2" align="left">
+			<p> <strong><span style="font-family:Times New Roman; font-size: 18pt;">Secure Federated Learning Framework</span></strong></p>
+		</th>
+	</tr>
+	
+
+	
+	
+	<tr style="height: 250px;">
+	
+		<td style="vertical-align: middle; width: 40%; height: 250px;"> <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/project2.png" alt=""></td>
+		
+		<td style="vertical-align: middle; width: 60%; height: 250px;">
+			
+			
+			
+			<p style="font-family:Times New Roman;font-size: 13pt;">
+This project aims to unify and implement state-of-the-art adversarial attacks and defenses under federated learning scenarios.
+</p>
+
+
+			<p style="font-family:Times New Roman;font-size: 13pt;">
+Adversarial attacks aim to breach privacy through various kinds of approaches, including but not limited to poisoning data or model, modifying loss function, model inversion, etc. Specifically, in this project, we cover the following attack strategies:<br>
+1. Gradient Attacks<br>
+2. Backdoor Attacks<br>
+3. Byzantine Attacks<br>
+</p>
+
+<p style="font-family:Times New Roman;font-size: 13pt;">
+In contrast, defense strategies aim to build a secure and robust FL framework, which enables resilience to various kinds of failures and attacks. In this project, we cover the following defense strategies:<br>
+1. Differential Privacy<br>
+2. Gradient Compression<br>
+3. Robust Aggregation<br>
+</p>
+
+			<p style="font-family:Times New Roman;font-size: 13pt;">
+</p>
+			
+			
+			<p style="font-family:Times New Roman;font-size: 13pt;">Code (unavailable now)</p>
+		</td>
+		
+		
+	</tr>
+</tbody></table>
+
+
+<br>
+
+<table style="border-collapse: collapse; width: 100%;"><tbody>
+	<tr bgcolor="#DEDEDC">
+		<th colspan="2" align="left">
+			<p> <strong><span style="font-family:Times New Roman; font-size: 18pt;">Awesome Federated Machine Learning </span></strong></p>
+		</th>
+	</tr>
+	<tr style="height: 250px;">
+	
+		
+		
+		<td style="vertical-align: middle; width: 40%; height: 250px;"> <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/project1.png" alt=""></td>
+		
+		
+		<td style="vertical-align: middle; width: 60%; height: 250px;">
+			
+			
+			<p style="font-family:Times New Roman;font-size: 13pt;">
+Everything about federated learning, the goal is to keep tracking the latest research advancements of federated learning, including but not limited to research papers, books, codes, tutorials, and videos.
+</p>
+
+			<p style="font-family:Times New Roman;font-size: 13pt;">
+1. Top Machine Learning Conferences (<a href="https://icml.cc/" target="_blank">ICML</a>,&nbsp; <a href="https://iclr.cc/" target="_blank">ICLR</a>,&nbsp; <a href="https://neurips.cc/" target="_blank">NeurIPS</a>)<br>
+2. Top Computer Vision Conferences (CVPR,&nbsp; ICCV,&nbsp; ECCV)<br>
+3. Top Artificial Intelligence and Data Mining Conferences (<a href="https://www.aaai.org/" target="_blank">AAAI</a>, &nbsp;<a href="https://aistats.org/" target="_blank">AISTATS</a>,&nbsp; <a href="https://kdd.org/conferences" target="_blank">KDD</a>)<br>
+4. Books<br>
+5. Papers with different research directions <br>
+6. Conference workshops <br>
+7. Videos, Tutorials, Blogs, and Open sources
+</p>
+
+			<p style="font-family:Times New Roman;font-size: 13pt;">
+</p>
+			
+			
+			<p style="font-family:Times New Roman;font-size: 13pt;">Code:&nbsp;<a href="https://github.com/innovation-cat/Awesome-Federated-Machine-Learning" target="_blank"><i class="fab fa-github-alt" style="font-size: 0.8em;"></i> Github Project</a></p>
+		</td>
+		
+		
+	</tr>
+</tbody></table>
