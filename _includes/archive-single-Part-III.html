@@ -1,0 +1,240 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+
+
+
+
+
+
+<table style="border-collapse: collapse; width: 100%;"><tbody>
+	<tr bgcolor="#DEDEDC">
+		<th colspan="2" align="left">
+			<p> <strong><span style="font-family:Times New Roman; font-size: 18pt;">第十章：联邦学习安全性</span></strong></p>
+		</th>
+	</tr>
+
+	<tr style="height: 250px;">
+	
+		<td style="vertical-align: middle; width: 40%; height: 250px;"> <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/ch10.png" alt=""></td>
+		
+		<td style="vertical-align: middle; width: 60%; height: 250px;">
+	
+			<p style="font-family:Times New Roman;font-size: 13pt;">
+简介：在上一章，我们介绍了隐私计算领域不同的技术研究方向，经过多
+年的发展，该领域已逐渐形成了一个功能完备的工具包，里面包括了差
+分隐私、可信执行环境、同态加密和安全多方计算的各个维度，如秘密
+共享、混淆电路、不经意传输等。本章我们将分析如何利用这些不同的
+工具包，与传统联邦学习算法相结合，构建安全可信的联邦学习。
+</p>
+
+			<p style="font-family:Times New Roman;font-size: 13pt;">PDF下载:&nbsp;<a href="https://github.com/innovation-cat/Awesome-Federated-Machine-Learning" target="_blank">Github Project</a></p>		
+		</td>	
+	</tr>
+</tbody></table>
+
+<br>
+
+
+<table style="border-collapse: collapse; width: 100%;"><tbody>
+	<tr bgcolor="#DEDEDC">
+		<th colspan="2" align="left">
+			<p> <strong><span style="font-family:Times New Roman; font-size: 18pt;">第十一章：联邦学习效率与效能</span></strong></p>
+		</th>
+	</tr>
+	<tr style="height: 250px;">
+	
+		<td style="vertical-align: middle; width: 40%; height: 250px;"> <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/ch11.png" alt=""></td>
+		
+		<td style="vertical-align: middle; width: 60%; height: 250px;">		
+			<p style="font-family:Times New Roman;font-size: 13pt;">
+简介：安全、性能和效率是可信联邦学习的三大核心要素，在前面的第D章
+和第10章中，我们详细讲解了与联邦学习安全性相关的理论、技术及其
+应用；在第14章、第15章和第16章，我们则从多个角度，介绍了可信联邦
+学习性能效用的提升技巧。本章我们来开始分析可信联邦学习的效率问
+题。本章旨在解决如何在保障隐私数据安全的前提下，提升联邦学习的
+训练效率。
+</p>
+			<p style="font-family:Times New Roman;font-size: 13pt;">PDF下载:&nbsp;<a href="https://github.com/innovation-cat/Awesome-Federated-Machine-Learning" target="_blank">Github Project</a></p>		
+		</td>	
+	</tr>
+</tbody></table>
+
+
+
+<br>
+
+
+<table style="border-collapse: collapse; width: 100%;"><tbody>
+	<tr bgcolor="#DEDEDC">
+		<th colspan="2" align="left">
+			<p> <strong><span style="font-family:Times New Roman; font-size: 18pt;">第十二章：没有免费午餐定理</span></strong></p>
+		</th>
+	</tr>
+	<tr style="height: 250px;">
+	
+		<td style="vertical-align: middle; width: 40%; height: 250px;"> <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/ch12.png" alt=""></td>
+		
+		<td style="vertical-align: middle; width: 60%; height: 250px;">		
+			<p style="font-family:Times New Roman;font-size: 13pt;">
+简介：在实现联邦学习算法的过程中，通常会存在两个看似矛盾的现象：一
+是为了保证模型的性能效用，各参与方之间需要交换一些中间数据信息
+（如模型参数、梯度等中间数据）；另一方面，在多方参与的协同计算场
+景中，理想的诚实参与方通常很少存在，在大多数情况下，我们面对的
+是半诚实的合作伙伴（或者更有甚者是恶意的参与方），这些参与方在参
+与联邦建模的同时，可能会有目的地窃取其它参与方的数据信息，或者
+好奇地对结果数据进行反向推导。作为一种安全的计算范式，联邦学习
+的设计机制充分考虑到这些可能潜在的风险，其安全机制为数据隐私安
+全提供了保驾护航的能力。
+</p>
+			<p style="font-family:Times New Roman;font-size: 13pt;">PDF下载:&nbsp;<a href="https://github.com/innovation-cat/Awesome-Federated-Machine-Learning" target="_blank">Github Project</a></p>		
+		</td>	
+	</tr>
+</tbody></table>
+
+
+
+<br>
+
+
+<table style="border-collapse: collapse; width: 100%;"><tbody>
+	<tr bgcolor="#DEDEDC">
+		<th colspan="2" align="left">
+			<p> <strong><span style="font-family:Times New Roman; font-size: 18pt;">第十三章：联邦学习的多目标优化理论</span></strong></p>
+		</th>
+	</tr>
+	<tr style="height: 250px;">
+	
+		<td style="vertical-align: middle; width: 40%; height: 250px;"> <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/ch13.png" alt=""></td>
+		
+		<td style="vertical-align: middle; width: 60%; height: 250px;">		
+			<p style="font-family:Times New Roman;font-size: 13pt;">
+简介：隐私 (Privacy)、效用 (Utility) 和效率 (Efficiency) 是可信联邦学习
+（Trustworthy Federated Learning，TFL）的三大核心基石，但在第12章中，
+我们通过“没有免费午餐定理”理论分析了，在设计联邦学习算法时，无
+法保证隐私泄露无穷小的同时，还能使效用损失和效率损失同时达到最
+小。因此，如何实现三者的权衡（Trade-Off）取舍是联邦学习算法设计的
+关键。本章，我们将从机器学习的角度出发，详细讨论可信联邦学习的
+权衡学习理论。
+</p>
+			<p style="font-family:Times New Roman;font-size: 13pt;">PDF下载:&nbsp;<a href="https://github.com/innovation-cat/Awesome-Federated-Machine-Learning" target="_blank">Github Project</a></p>		
+		</td>	
+	</tr>
+</tbody></table>
+
+
+<br>
+
+
+<table style="border-collapse: collapse; width: 100%;"><tbody>
+	<tr bgcolor="#DEDEDC">
+		<th colspan="2" align="left">
+			<p> <strong><span style="font-family:Times New Roman; font-size: 18pt;">第十四章：个性化联邦学习</span></strong></p>
+		</th>
+	</tr>
+	<tr style="height: 250px;">
+	
+		<td style="vertical-align: middle; width: 40%; height: 250px;"> <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/ch14.png" alt=""></td>
+		
+		<td style="vertical-align: middle; width: 60%; height: 250px;">		
+			<p style="font-family:Times New Roman;font-size: 13pt;">
+简介：联邦学习在现实场景中常常面临着异构性的挑战，这些挑战包括：各
+参与方在设备上的差异，例如计算力、存储设备、网络通信环境等硬件
+上的差异；各参与方的本地数据集之间存在数据分布或数量大小的差异；
+各参与方由于任务需求的不一致，使用不同的模型架构等。这些异构性
+问题使得联邦学习的模型训练，相比于传统的分布式机器学习训练要更
+困难，直接影响着联邦学习的性能效用。
+</p>
+			<p style="font-family:Times New Roman;font-size: 13pt;">PDF下载:&nbsp;<a href="https://github.com/innovation-cat/Awesome-Federated-Machine-Learning" target="_blank">Github Project</a></p>		
+		</td>	
+	</tr>
+</tbody></table>
+
+
+<br>
+
+
+<table style="border-collapse: collapse; width: 100%;"><tbody>
+	<tr bgcolor="#DEDEDC">
+		<th colspan="2" align="left">
+			<p> <strong><span style="font-family:Times New Roman; font-size: 18pt;">第十五章：联邦学习公平性</span></strong></p>
+		</th>
+	</tr>
+	<tr style="height: 250px;">
+	
+		<td style="vertical-align: middle; width: 40%; height: 250px;"> <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/ch15.png" alt=""></td>
+		
+		<td style="vertical-align: middle; width: 60%; height: 250px;">		
+			<p style="font-family:Times New Roman;font-size: 13pt;">
+简介：随着人工智能技术的不断突破和发展，以机器学习为代表的AI算
+法正不断影响着我们生活中的方方面面，并为我们的生活带来了许多便
+利。但当我们享受着算法带来便利的同时，我们也面临着一个不容忽视
+的问题，即：人工智能算法给出的决策，是否能够做到公平公正？如果
+采用带有偏见的算法会产生什么样的后果？这就是本章我们将要讨论的
+公平性问题。
+</p>
+			<p style="font-family:Times New Roman;font-size: 13pt;">PDF下载:&nbsp;<a href="https://github.com/innovation-cat/Awesome-Federated-Machine-Learning" target="_blank">Github Project</a></p>		
+		</td>	
+	</tr>
+</tbody></table>
+
+
+<br>
+
+
+<table style="border-collapse: collapse; width: 100%;"><tbody>
+	<tr bgcolor="#DEDEDC">
+		<th colspan="2" align="left">
+			<p> <strong><span style="font-family:Times New Roman; font-size: 18pt;">第十六章：联邦学习贡献度与激励机制</span></strong></p>
+		</th>
+	</tr>
+	<tr style="height: 250px;">
+	
+		<td style="vertical-align: middle; width: 40%; height: 250px;"> <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/ch15.png" alt=""></td>
+		
+		<td style="vertical-align: middle; width: 60%; height: 250px;">		
+			<p style="font-family:Times New Roman;font-size: 13pt;">
+简介：暂无
+</p>
+			<p style="font-family:Times New Roman;font-size: 13pt;">PDF下载:&nbsp;<a href="https://github.com/innovation-cat/Awesome-Federated-Machine-Learning" target="_blank">Github Project</a></p>		
+		</td>	
+	</tr>
+</tbody></table>
+
+
+<br>
+
+
+<table style="border-collapse: collapse; width: 100%;"><tbody>
+	<tr bgcolor="#DEDEDC">
+		<th colspan="2" align="left">
+			<p> <strong><span style="font-family:Times New Roman; font-size: 18pt;">第十七章：模型知识产权保护</span></strong></p>
+		</th>
+	</tr>
+	<tr style="height: 250px;">
+	
+		<td style="vertical-align: middle; width: 40%; height: 250px;"> <img style="display: block; margin-left: auto; margin-right: auto;" src="/images/ch17.png" alt=""></td>
+		
+		<td style="vertical-align: middle; width: 60%; height: 250px;">		
+			<p style="font-family:Times New Roman;font-size: 13pt;">
+简介：知识产权（Intellectual Property）是指人类智慧创造出来的成果和财
+产，包括但不限于发明，文学和艺术作品，外观设计，商业中使用的符
+号、名称和形象等。对知识产权的确认和保护，一方面保障了发明人的
+权益，起到了鼓励创新的作用；另一方面，也促进了知识的共享，对社
+会生产力的发展起到至关重要的作用。
+</p>
+			<p style="font-family:Times New Roman;font-size: 13pt;">PDF下载:&nbsp;<a href="https://github.com/innovation-cat/Awesome-Federated-Machine-Learning" target="_blank">Github Project</a></p>		
+		</td>	
+	</tr>
+</tbody></table>
