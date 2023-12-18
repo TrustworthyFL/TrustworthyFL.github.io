@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "Part I"
-    url: /publications/
+  - title: "Part_I"
+    url: /Part_I/
 
   - title: "Part II"
     url: /publications/
