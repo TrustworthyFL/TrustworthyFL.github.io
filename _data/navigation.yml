@@ -1,10 +1,10 @@
 # main links links
 main:
-  - title: "Part_I"
+  - title: "Part I"
     url: /Part_I/
 
   - title: "Part II"
-    url: /publications/
+    url: /Part_II/
 
   - title: "Part III"
     url: /publications/
