@@ -10,7 +10,7 @@ redirect_from:
 
 
  <p>
-	<img align="left" src="../images/trust.png" alt="Photo" style="width: 130px; border-radius: 10px; padding: 10px 10px 10px 10px">
+	<img align="left" src="../images/pfl_book.png" alt="Photo" style="width: 200px; border-radius: 10px; padding: 10px 10px 10px 10px">
  
 	<p style="font-size:17px">
             近年来，图神经网络（GNN）取得了快速、令人难以置信的进展。图神经网络又称为图深度学习、图表征学习（图表示学习）或几何深度学习，是机器学习特别是深度学习领域增长最快的研究课题。图论和深度学习交叉领域的这波研究浪潮也影响了其他科学领域，包括推荐系统、计算机视觉、自然语言处理、归纳逻辑编程、程序合成、软件挖掘、自动规划、网络安全和智能交通等。
