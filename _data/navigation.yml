@@ -1,22 +1,12 @@
 # main links links
 main:
-  - title: "Publications"
+  - title: "Slides"
     url: /publications/
     
-  - title: "Awards"
+  - title: "Resource"
     url: /awards/    
     
-  - title: "Books"
-    url: /books/  
+  - title: "Authors"
+    url: /awards/  
 
-  - title: "Patents"
-    url: /patents/      
-    
-  - title: "Projects"
-    url: /projects/  
-    
-  - title: "Services"
-    url: /services/  
-    
-  - title: "Talks"
-    url: /talks/      
+  

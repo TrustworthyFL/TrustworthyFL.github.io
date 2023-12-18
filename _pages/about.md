@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to Anbu Huang's HomePage"
+title: "Trustworthy Federated Learning"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,22 +8,25 @@ redirect_from:
   - /about.html
 ---
 
-<p><img src="../images/bay.png" alt="" width="100%"></p>
+<div class="row">
+        <div class="col-md-4 col-sm-12 pr-5 lead" ,="" style="margin-left: 20px; margin-right: -30px">
+            <img src="static/images/chinese_cover.jpg" }}"="" class="rounded" style="width:90%">
+          </div>
+  
+      <div class="col-md-8 col-sm-12 pr-5 lead" ,="" style="margin-left:-10px;">
+        <p style="font-size:17px">
+            近年来，图神经网络（GNN）取得了快速、令人难以置信的进展。图神经网络又称为图深度学习、图表征学习（图表示学习）或几何深度学习，是机器学习特别是深度学习领域增长最快的研究课题。图论和深度学习交叉领域的这波研究浪潮也影响了其他科学领域，包括推荐系统、计算机视觉、自然语言处理、归纳逻辑编程、程序合成、软件挖掘、自动规划、网络安全和智能交通等。
+        </p>
+        <p style="font-size:17px">
+            尽管图神经网络已经取得令人瞩目的成就，但我们在将其应用于其他领域时仍面临着许多挑战，包括从方法的理论理解到实际系统中的可拓展性和可解释性，从方法的合理性到应用中的经验表现，等等。然而，随着图神经网络的快速发展，要获得图神经网络发展的全局视角时非常具有挑战性的。因此，我们感到迫切需要弥合上述差距，并就这一快速增长但具有挑战性的主题编写一本全面的书，这可以使广大读者收益，包括高年级本科生和研究生、博士后研究人员、讲师及相关的从业人员。
+        </p>
+        <p style="font-size:17px">
+            本书涵盖图神经网络的广泛主题，从基础到前沿，从方法到应用，涉及从方法论到应用场景方方面面的内容。我们致力于介绍图神经网络的基本概念和算法、研究前沿以及广泛和新兴的应用。
+        </p>
+      </div>
+    </div>
 
-<p>
-<font color="red">*News: </font> Writing a new book: Trustworthy federated learning (2023). <br>
-<font color="red">*News: </font> Two papers are prepared to be submitted. <br>
-</p>
 
-<p style="font-family=times"><font size=5><b>About me:</b></font></p>
-
-A lifelong learner and practitioner, with a strong passion and interest in scientific research and product, achieving business impact by combining effective leadership with deep technical knowledge and skills, continuing to expand the boundaries of knowledge and innovation.
-
-<p><img align="right" src="../images/trust.png" alt="Photo" style="width: 130px; border-radius: 10px; padding: 10px 10px 10px 10px">In recent years, I work on the mathematical foundations of Deep Learning, where the ultimate goal is to build trustworthy and safe AI. Tradition AI approaches are rely heavily on the availability of large-scale and high-quality data but do not provide a mechanism for securely obtaining and using these data. This motivate us to seek for a new training paradigm, which enables multiple devices collaboratively to train a shared model without compromising data privacy and security. More research results can be found in: <br>
-<span><a href="https://innovation-cat.github.io/publications/"  target="_blank">Publications</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://innovation-cat.github.io/books/" target="_blank">Books</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://innovation-cat.github.io/projects/" target="_blank">Projects</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://innovation-cat.github.io/patents/" target="_blank">Patents</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://innovation-cat.github.io/services/" target="_blank">Services</a></span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-
-<p><img align="right" src="../images/qqmusic.png" alt="Photo" style="width: 130px; border-radius: 10px; padding: 10px 10px 10px 10px">In my past life, I also worked on the applied AI, I led a technical team at Tencent, and built the world's largest online music recommender system, serving more than 100 million users around the world. We tried to leverage different AI approaches to analyze our customers' listening history and predict their favorite songs, including but not limited to natural language processing, music information retrieval, deep neural network. This work is challenging and requires us to build statistical models for human emotions and interests.</p>
 
 
 
