@@ -1,6 +1,18 @@
 # main links links
 main:
-  - title: "Slides"
+  - title: "Part I"
+    url: /publications/
+
+  - title: "Part II"
+    url: /publications/
+
+  - title: "Part III"
+    url: /publications/
+    
+  - title: "Part IV"
+    url: /publications/
+
+  - title: "Part V"
     url: /publications/
     
   - title: "Resource"
