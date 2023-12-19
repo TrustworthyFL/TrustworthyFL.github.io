@@ -1,0 +1,85 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+
+
+
+
+<div class="row mb-5 mt-3">
+    
+    <div class="col-md-3 col-xs-6">
+      <div class="card text-center shadow p-3 bg-light rounded h-100" id="pinfo">
+        <a href="https://sites.google.com/view/teddy-lfwu/">
+          </a><div class="text-muted"><a href="https://sites.google.com/view/teddy-lfwu/">
+            <img src="static/images/lingfei.jpeg" class="rounded" style="height: 150px;">
+            <h5 class="card-title" align="center">Lingfei Wu</h5>
+          </a><div><a href="https://sites.google.com/view/teddy-lfwu/">
+        </a>
+            <h6 class="card-subtitle text-muted">
+              Pinterest
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-3 col-xs-6">
+      <div class="card text-center shadow p-3 bg-light rounded h-100" id="pinfo">
+        <a href="http://pengcui.thumedialab.com/">
+          </a><div class="text-muted"><a href="http://pengcui.thumedialab.com/">
+            <img src="static/images/pengcui.jpeg" class="rounded" style="height: 150px;">
+            <h5 class="card-title" align="center">Peng Cui</h5>
+          </a><div><a href="http://pengcui.thumedialab.com/">
+        </a>
+            <h6 class="card-subtitle text-muted">
+              Tsinghua University
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-3 col-xs-6">
+      <div class="card text-center shadow p-3 bg-light rounded h-100" id="pinfo">
+        <a href="https://www.sfu.ca/computing/people/faculty/jianpei.html">
+          </a><div class="text-muted"><a href="https://www.sfu.ca/computing/people/faculty/jianpei.html">
+            <img src="static/images/jianpei.jpeg" class="rounded" style="height: 150px;">
+            <h5 class="card-title" align="center">Jian Pei</h5>
+          </a><div><a href="https://www.sfu.ca/computing/people/faculty/jianpei.html">
+        </a>
+            <h6 class="card-subtitle text-muted">
+              Duke University
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-3 col-xs-6">
+      <div class="card text-center shadow p-3 bg-light rounded h-100" id="pinfo">
+        <a href="http://cs.emory.edu/~lzhao41/index.htm">
+          </a><div class="text-muted"><a href="http://cs.emory.edu/~lzhao41/index.htm">
+            <img src="static/images/liangzhao.jpeg" class="rounded" style="height: 150px;">
+            <h5 class="card-title" align="center">Liang Zhao</h5>
+          </a><div><a href="http://cs.emory.edu/~lzhao41/index.htm">
+        </a>
+            <h6 class="card-subtitle text-muted">
+              Emory University
+            </h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+</div>
