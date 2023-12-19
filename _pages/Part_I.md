@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "第一部分"
+title: "第一部分：简介"
 permalink: /Part_I/
 author_profile: true
 ---

@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "第三部分"
+title: "第三部分：可信联邦学习"
 permalink: /Part_III/
 author_profile: true
 ---

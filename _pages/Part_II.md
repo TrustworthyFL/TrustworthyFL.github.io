@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "第二部分"
+title: "第二部分：基础算法"
 permalink: /Part_II/
 author_profile: true
 ---
