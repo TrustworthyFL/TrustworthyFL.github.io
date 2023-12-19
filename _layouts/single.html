@@ -59,13 +59,10 @@ layout: default
       </section>
 
       <footer class="page__meta">
-        <div class="container">
-        <p style="margin-left:-10px;">
-          <span class="lead">Trustworthy Federated Learning</span>
-        </p>
-        <p style="margin-right:-10px;"><a href="#" class="text-dark">Back to Top</a></p>
-        <p style="text-align: center;">©CopyRight2023</p>
-      </div>
+        {% if site.data.ui-text[site.locale].meta_label %}
+          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
+        {% endif %}
+        {% include page__taxonomy.html %}
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
