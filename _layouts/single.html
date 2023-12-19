@@ -59,10 +59,13 @@ layout: default
       </section>
 
       <footer class="page__meta">
-        {% if site.data.ui-text[site.locale].meta_label %}
-          <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
-        {% endif %}
-        {% include page__taxonomy.html %}
+        <div class="container">
+        <p class="float-left">
+          <span class="lead">Trustworthy Federated Learning</span>
+        </p>
+        <p class="float-right"><a href="#" class="text-dark">Back to Top</a></p>
+        <p class="text-center">©CopyRight2023 Team</p>
+      </div>
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
