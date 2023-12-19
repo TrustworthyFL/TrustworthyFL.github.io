@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Trustworthy Federated Learning"
+title                    : "Home"
 minimal_mistakes_skin    : "aqua"
 title_separator          : "-"
 name                     : &name "Your Name"
